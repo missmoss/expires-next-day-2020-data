@@ -1,0 +1,5 @@
+provinceID,cityID,districtID,townID,villageID,no,name,partyID,gender,birthday,age,birthCity,education,isCurrent,isElected,vice,id,voteID,oldID
+00,000,00,000,0000,1,陳水扁,2,1,0400000,53,  ,  ,Y,*, ,,200401,00000000000
+00,000,00,000,0000,1,呂秀蓮,2,2,0330000,60,  ,  ,Y,*,Y,,200401,00000000000
+00,000,00,000,0000,2,連戰,1,1,0250000,68,  ,  ,N, , ,,200401,00000000000
+00,000,00,000,0000,2,宋楚瑜,1,1,0310000,62,  ,  ,N, ,Y,,200401,00000000000

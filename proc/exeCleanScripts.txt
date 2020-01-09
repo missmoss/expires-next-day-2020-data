@@ -1,0 +1,30 @@
+# in this dir
+########### vote data
+# ID MATCH
+# exe once, then edit id_match.csv, and exe again
+python voteIDMatch.py ../data/vote/raw/2014-103年地方公職人員選舉/縣市市長/ city_mayor 201402
+python voteIDMatch.py ../data/vote/raw/20120114-總統及立委/總統/ president 201201
+python voteIDMatch.py ../data/vote/raw/20101127-五都市長議員及里長/市長/ direct_city_mayor 201001
+python voteIDMatch.py ../data/vote/raw/20091205-縣市長縣市議員及鄉鎮長/縣市長/ city_mayor 200901
+python voteIDMatch.py ../data/vote/raw/2008\ 12任總統/ president 200801
+python voteIDMatch.py ../data/vote/raw/2006直轄市長/ direct_city_mayor 200601
+python voteIDMatch.py ../data/vote/raw/2005縣市長/ city_mayor 200501
+python voteIDMatch.py ../data/vote/raw/2004\ \ \ 11任總統/ president 200401
+python voteIDMatch.py ../data/vote/raw/2002直轄市長/ direct_city_mayor 200201
+python voteIDMatch.py ../data/vote/raw/2001縣市長/ city_mayor 200101
+
+# PROC Before 2016)
+python voteCleanBefore.py ../data/vote/raw/2004\ \ \ 11任總統/ president 200401
+python voteCleanBefore.py ../data/vote/raw/2005縣市長/ city_mayor 200501
+python voteCleanBefore.py ../data/vote/raw/2006直轄市長/ direct_city_mayor 200601
+python voteCleanBefore.py ../data/vote/raw/2008\ 12任總統/ president 200801
+python voteCleanBefore.py ../data/vote/raw/20091205-縣市長縣市議員及鄉鎮長/縣市長/ city_mayor 200901
+python voteCleanBefore.py ../data/vote/raw/20101127-五都市長議員及里長/市長/ direct_city_mayor 201001
+python voteCleanBefore.py ../data/vote/raw/20120114-總統及立委/總統/ president 201201
+python voteCleanBefore.py ../data/vote/raw/2014-103年地方公職人員選舉/縣市市長/ city_mayor 201402
+python voteCleanBefore.py ../data/vote/raw/2014-103年地方公職人員選舉/直轄市市長/ direct_city_mayor 201401
+
+# PROC After [2016
+python voteCleanAfter2016.py ../data/vote/raw/2016總統立委/總統/ president 201601
+python voteCleanAfter2016.py ../data/vote/raw/2018-107年地方公職人員選舉/直轄市市長/ direct_city_mayor 201801
+python voteCleanAfter2016.py ../data/vote/raw/2018-107年地方公職人員選舉/縣市市長/ city_mayor 201802
