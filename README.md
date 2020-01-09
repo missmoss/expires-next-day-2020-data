@@ -5,7 +5,7 @@
 
 ## Introduction 簡介
 
-This is the data behind the analysis on the webpage above. We added unique village ID to the vote data. It helps us to connect the village data of different years.  這是上方網頁內的資料分析，背後的資料。我們在資料中加上了村里代碼，方便將不同年度的村里資料串接起來。
+This is the data behind the analysis of eight elections from 2008 to 2018 in Taiwan on the webpage above. We added unique village ID to the vote data. It helps us to connect the village data of different years.  這是上方網頁內，針對台灣 2008-2018 的八次選舉的資料分析，背後的資料。我們在資料中加上了村里代碼，方便將不同年度的村里資料串接起來。
 
 ## Data 資料
 
